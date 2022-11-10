@@ -1,5 +1,4 @@
-let chilometri = prompt ("Inserisci i chilometri da percorrere");
-let età = prompt ("Inserisci la tua età");
+
 let nome = ("Inserisci il tuo nome");
 
 
@@ -13,8 +12,9 @@ console.log("etàPasseggero");
 
 
 
+
 const prezzoKm = distanzaKm * 0.21;
-console.log("priceKm");
+console.log("prezzoKm");
 
 
 
@@ -22,13 +22,13 @@ let prezzoFinale = prezzoKm;
 console.log("prezzoFinale");
 
 
-if (etàPasseggero <18) {
+if (etàPasseggero < 18) {
     const minorenne = prezzoKm * 0.20;
-    console.log("minorenne è 8.4" + minorenne);
+    console.log(`Lo sconto per viaggiatore minorenne è: 8.4${minorenne}`);
     prezzoFinale = prezzoKm - minorenne;
     console.log("Il prezzo è " + (prezzoKm - minorenne));
 
-} else if (etàPasseggero >65) {
+} else if (etàPasseggero > 65) {
     const adulto = priceKm * 0.40;
     console.log("adulto è: " + adulto);
     prezzoFinale = prezzoKm - adulto;
