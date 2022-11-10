@@ -4,7 +4,7 @@ let nome = ("Inserisci il tuo nome");
 
 
 const distanzaKm = parseInt(prompt("Quanti chilometri vuole percorrere?"));
-console.log("distanzaKm");
+console.log("distanzaKm"); 
 
 
 const etàPasseggero = parseInt(prompt("Quanti anni ha?"));
